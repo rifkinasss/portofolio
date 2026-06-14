@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+:root {
+  --background: #01030b;
+  --foreground: #f8fafc;
+  --card: #050816;
+  --card-foreground: #f8fafc;
+  --primary: #22d3ee;
+  --primary-foreground: #04111f;
+  --secondary: #0b1026;
+  --secondary-foreground: #dbeafe;
+  --muted: #070b19;
+  --muted-foreground: #94a3b8;
+  --accent: #5b21b6;
+  --accent-foreground: #f8fafc;
+  --border: rgba(148, 163, 184, 0.22);
+  --ring: #22d3ee;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-border: var(--border);
+  --color-ring: var(--ring);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+}
+
+::selection {
+  background: #22d3ee;
+  color: #04111f;
+}
+
+.cosmic-shell {
+  background:
+    radial-gradient(circle at 20% 20%, rgba(91, 33, 182, 0.14), transparent 28rem),
+    radial-gradient(circle at 84% 12%, rgba(34, 211, 238, 0.1), transparent 24rem),
+    radial-gradient(circle at 72% 82%, rgba(52, 211, 153, 0.06), transparent 22rem),
+    #01030b;
+}
+
+.glass-panel {
+  background: rgba(3, 7, 18, 0.84);
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.42);
+  backdrop-filter: blur(18px);
+}
+
+.star-grid {
+  background-image:
+    radial-gradient(circle, rgba(255, 255, 255, 0.28) 1px, transparent 1px),
+    radial-gradient(circle, rgba(34, 211, 238, 0.18) 1px, transparent 1px);
+  background-position:
+    0 0,
+    32px 42px;
+  background-size:
+    86px 86px,
+    132px 132px;
+}

@@ -17,9 +17,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Rifki Anashirul - Portfolio",
+  title: "Nas Labs - Technology Portfolio",
   description:
-    "Portfolio Software Engineer yang fokus pada full stack, backend, dan frontend.",
+    "Technology portfolio yang fokus pada full stack, backend, frontend, dan integrasi sistem.",
 };
 
 export default function RootLayout({

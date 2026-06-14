@@ -1,15 +1,40 @@
-# Rifki Anashirul Portfolio
+# Nas Labs
 
-Website portfolio personal untuk menampilkan profil, stack teknologi, project kuliah, dan arah pengembangan project secara terstruktur.
+Technology portfolio milik Rifki Anashirul untuk menampilkan profil, stack teknologi, project kuliah, dan arah pengembangan project secara terstruktur.
 
-Portfolio ini dibuat sebagai etalase utama dari beberapa project yang pernah dikerjakan, mulai dari aplikasi Laravel, PHP native, sistem pendukung keputusan, sampai project web dasar.
+Nas Labs dibuat sebagai identitas teknologi dan etalase utama dari beberapa project yang pernah dikerjakan, mulai dari aplikasi Laravel, PHP native, sistem pendukung keputusan, sampai project web dasar.
+
+## Versi
+
+### v1.1.0
+
+Versi deploy untuk Nas Labs dengan perubahan:
+
+- Mengubah branding utama dari portfolio personal menjadi **Nas Labs**.
+- Menambahkan identitas **Technology Lab** dan **Technology Portfolio**.
+- Memperbarui halaman hero, about, footer, dan metadata agar konsisten dengan brand Nas Labs.
+- Menambahkan Telegram sebagai kontak.
+- Memperbarui README sesuai isi portfolio terbaru.
+- Menggunakan `next dev --webpack` agar development server lebih stabil di workspace lokal Windows.
+- Mengunci `turbopack.root` ke folder project untuk menghindari salah deteksi root workspace.
+
+### v1.0.0
+
+Versi fondasi awal portfolio dengan fitur:
+
+- Struktur website portfolio berbasis Next.js, TypeScript, dan Tailwind CSS.
+- Halaman utama, tentang, project, dan kontak.
+- Data project terpusat di `src/data/portfolio.ts`.
+- Daftar project kuliah awal: Silakad, SPK, Portfolio System, UTSPHP, PBO, dan Pemstruk.
+- Ringkasan project berbasis problem, outcome, highlight, dan next step.
+- Tema visual gelap dengan aksen cyan dan layout responsif.
 
 ## Fitur
 
 - Halaman beranda dengan hero section, fokus keahlian, project pilihan, stack, eksplorasi teknologi, dan call to action.
 - Halaman tentang berisi profil teknis, area fokus, stack utama, dan eksplorasi yang sedang dipelajari.
 - Halaman project berisi ringkasan case study untuk setiap project.
-- Halaman kontak dengan email, GitHub, LinkedIn, dan area kolaborasi.
+- Halaman kontak dengan email, GitHub, LinkedIn, Telegram, dan area kolaborasi.
 - Data portfolio terpusat di `src/data/portfolio.ts` agar mudah diperbarui.
 - Tampilan responsif dengan tema visual gelap dan aksen cyan.
 
@@ -21,8 +46,8 @@ Portfolio ini dibuat sebagai etalase utama dari beberapa project yang pernah dik
 - **SPK - Sistem Pendukung Keputusan**  
   Aplikasi keputusan berbasis kriteria, bobot, alternatif, dan hasil ranking.
 
-- **Portfolio System**  
-  Website portfolio personal berbasis Next.js, TypeScript, dan Tailwind CSS.
+- **Nas Labs Portfolio System**  
+  Website technology portfolio berbasis Next.js, TypeScript, dan Tailwind CSS.
 
 - **UTSPHP - Sistem Informasi Rumah Sakit**  
   Aplikasi PHP native dan MySQL untuk mengelola data pasien, dokter, obat, poliklinik, dan rekam medis.

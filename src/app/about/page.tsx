@@ -21,15 +21,15 @@ export default function AboutPage() {
         <div>
           <p className="mb-3 text-sm font-medium text-cyan-300">Tentang</p>
           <h1 className="max-w-3xl text-4xl font-semibold leading-tight tracking-tight sm:text-5xl">
-            Saya {siteConfig.name}, Software Engineer yang membangun aplikasi
-            web dari sisi backend hingga frontend.
+            {siteConfig.name} adalah identitas teknologi dari{" "}
+            {siteConfig.personalName} untuk membangun aplikasi web dari backend
+            hingga frontend.
           </h1>
           <p className="mt-6 max-w-3xl text-base leading-8 text-muted-foreground">
-            Saya berfokus pada pengembangan aplikasi web yang terstruktur,
-            mudah dikembangkan, dan relevan dengan kebutuhan pengguna. Dalam
-            proses kerja, saya banyak bersentuhan dengan Laravel, Next.js,
-            TypeScript, SQL, dan PostgreSQL untuk membangun sistem yang rapi
-            dari sisi logic, data, hingga tampilan.
+            Nas Labs menjadi tempat untuk merapikan project, eksperimen, dan
+            proses belajar menjadi portfolio teknologi yang lebih profesional.
+            Fokus utamanya adalah pengembangan aplikasi web yang terstruktur,
+            mudah dikembangkan, dan relevan dengan kebutuhan pengguna.
           </p>
         </div>
 
@@ -39,18 +39,20 @@ export default function AboutPage() {
             <div className="relative mx-auto mt-4 flex h-44 w-44 items-center justify-center rounded-full border border-cyan-200/20 bg-slate-950/70 shadow-2xl shadow-cyan-950/30">
               <div className="absolute inset-3 rounded-full border border-white/10" />
               <div className="flex h-32 w-32 items-center justify-center rounded-full bg-[radial-gradient(circle_at_35%_25%,rgba(255,255,255,0.9),rgba(34,211,238,0.55)_22%,rgba(91,33,182,0.5)_58%,rgba(2,6,23,0.95)_100%)] text-4xl font-semibold text-white shadow-[0_0_44px_rgba(34,211,238,0.28)]">
-                RA
+                NL
               </div>
             </div>
 
             <div className="relative mt-8 space-y-4 text-center">
               <div>
                 <h2 className="text-2xl font-semibold">{siteConfig.name}</h2>
-                <p className="mt-1 text-sm text-cyan-200">{siteConfig.role}</p>
+                <p className="mt-1 text-sm text-cyan-200">
+                  Built by {siteConfig.personalName}
+                </p>
               </div>
               <p className="text-sm leading-6 text-muted-foreground">
-                Full stack development, backend systems, database, dan web
-                interface.
+                Technology lab untuk full stack development, backend systems,
+                database, dan web interface.
               </p>
               <div className="flex flex-wrap justify-center gap-2">
                 <Badge>Laravel</Badge>

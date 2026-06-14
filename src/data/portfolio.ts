@@ -1,12 +1,13 @@
 import type { Exploration, Project, Skill, SocialLink } from "@/types";
 
 export const siteConfig = {
-  name: "Rifki Anashirul",
-  role: "Software Engineer",
+  name: "Nas Labs",
+  personalName: "Rifki Anashirul",
+  role: "Technology Lab",
   email: "anashirulrifki@gmail.com",
-  title: "Rifki Anashirul - Portfolio",
+  title: "Nas Labs - Technology Portfolio",
   description:
-    "Portfolio Software Engineer untuk pengembangan aplikasi web, backend, frontend, dan integrasi sistem.",
+    "Technology portfolio untuk pengembangan aplikasi web, backend, frontend, dan integrasi sistem.",
   url: "https://example.com",
 };
 
@@ -20,6 +21,11 @@ export const socialLinks: SocialLink[] = [
     name: "LinkedIn",
     url: "https://www.linkedin.com/in/rifki-anashirul",
     icon: "linkedin",
+  },
+  {
+    name: "Telegram",
+    url: "https://t.me/rifkinasss",
+    icon: "telegram",
   },
   {
     name: "Email",
@@ -118,9 +124,9 @@ export const projects: Project[] = [
   },
   {
     id: "3",
-    title: "Portfolio System",
+    title: "Nas Labs Portfolio System",
     description:
-      "Website portfolio personal berbasis Next.js untuk menampilkan profil, stack, project, dan arah pengembangan secara terstruktur.",
+      "Website technology portfolio berbasis Next.js untuk menampilkan profil, stack, project, dan arah pengembangan secara terstruktur.",
     image: "/images/project-3.jpg",
     tags: ["Next.js", "TypeScript", "Tailwind CSS"],
     role: "Frontend Developer",

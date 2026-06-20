@@ -1,14 +1,14 @@
 import type { Exploration, Project, Skill, SocialLink } from "@/types";
 
 export const siteConfig = {
-  name: "Nas Labs",
+  name: "NasLabs",
   personalName: "Rifki Anashirul",
-  role: "Technology Lab",
+  role: "Startup Studio",
   email: "anashirulrifki@gmail.com",
-  title: "Nas Labs - Technology Portfolio",
+  title: "NasLabs - Turning Ideas Into Ventures",
   description:
-    "Technology portfolio untuk pengembangan aplikasi web, backend, frontend, dan integrasi sistem.",
-  url: "https://example.com",
+    "Startup studio, product lab, and build-in-public platform for SaaS, AI, GIS, and digital products.",
+  url: "https://rifkinasss.my.id",
 };
 
 export const socialLinks: SocialLink[] = [

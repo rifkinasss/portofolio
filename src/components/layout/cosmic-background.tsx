@@ -48,7 +48,7 @@ export function CosmicBackground() {
 
   return (
     <div aria-hidden="true" className="pointer-events-none fixed inset-0 -z-10 overflow-hidden">
-      <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(1,3,11,0.55),rgba(1,3,11,0.98))]" />
+      <div className="cosmic-screen absolute inset-0" />
       <div className="star-grid absolute inset-0 opacity-22" />
       <div className="cosmic-nebula absolute -left-36 top-16 h-96 w-96 rounded-full bg-cyan-400/10 blur-3xl" />
       <div className="cosmic-nebula absolute -right-28 top-32 h-[30rem] w-[30rem] rounded-full bg-violet-500/12 blur-3xl" />
